@@ -25,6 +25,8 @@ The first step involved calculating probabilities of a batsman scoring a 0, 1, 2
 
 <img src="https://github.com/sumanthvrao/IPL-Spark-Analysis/blob/master/stage2/frontend.png?raw=true" alt="Front end" width="400" height="300">
 
+<img src="https://github.com/sumanthvrao/IPL-Spark-Analysis/blob/master/stage2/simulated.png?raw=true" alt="Simulation" width="400" height="300">
+
 For wicket probability we started with a probability of 0.9 and then calculated the probability such that this probability decreases after each ball and once this probability falls below 0.5 we say that a wicket is taken. We then simulated this for 6 matches and obtained the results for these.
 
 ### PHASE 3 : DECISION TREE SIMULATION

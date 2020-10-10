@@ -1,5 +1,8 @@
 Predict outcomes of IPL Cricket Matches for year 2018 using like Spark
 
+## Summary
+
+Developed a score-wicket prediction model using Apache Spark MLlib to simulate the outcomes of Indian Premium League cricket matches during 2018 season. Ball-by-ball data from previous matches was used to develop two simulation models - Bayesian probability-based and Decision tree-based. The Bayesian model used cumulative probabilities to predict different runs and wicket chances on each ball delivery. If the batsman-bowler data was missing/insufficient their cluster data (clustered using k-means clustering) was used.  The Decision tree model used cluster average data like average strike rate to train and predict the outcomes of 10 matches.
 
 ## Design
 
@@ -25,7 +28,7 @@ The first step involved calculating probabilities of a batsman scoring a 0, 1, 2
 
 <img src="https://github.com/sumanthvrao/IPL-Spark-Analysis/blob/master/stage2/frontend.png?raw=true" alt="Front end" width="400" height="300">
 
-<img src="https://github.com/sumanthvrao/IPL-Spark-Analysis/blob/master/stage2/simulated.png?raw=true" alt="Simulation" width="400" height="300">
+<img src="https://github.com/sumanthvrao/IPL-Spark-Analysis/blob/master/stage2/simulated.png?raw=true" alt="Simulation" width="300" height="285">
 
 For wicket probability we started with a probability of 0.9 and then calculated the probability such that this probability decreases after each ball and once this probability falls below 0.5 we say that a wicket is taken. We then simulated this for 6 matches and obtained the results for these.
 

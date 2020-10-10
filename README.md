@@ -38,3 +38,9 @@ The top one indicates the Decision tree for runs and the bottom one indicates th
 
 <img src="https://github.com/sumanthvrao/IPL-Spark-Analysis/blob/master/stage3/below.png?raw=true" alt="Decision tree for wickets" width="500" height="400">
 
+### Authors
+
+- Siddharth Itagi
+- Sumanth V Rao
+- Sumedh Bhasarkod
+- Tanmaya Udupa

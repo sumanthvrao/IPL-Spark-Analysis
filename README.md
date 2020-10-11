@@ -1,6 +1,6 @@
 Predict outcomes of IPL Cricket Matches for year 2018 using like Spark
 
-Code Repository: https://github.com/sumanthvrao/IPL-Spark-Analysis
+Code Repository: [https://github.com/sumanthvrao/IPL-Spark-Analysis](https://github.com/sumanthvrao/IPL-Spark-Analysis)
 
 ## Summary
 

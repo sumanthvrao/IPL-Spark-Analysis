@@ -4,7 +4,11 @@ Code Repository: <a target="_blank" href="https://github.com/sumanthvrao/IPL-Spa
 
 ## Summary
 
-Developed a score-wicket prediction model using Apache Spark MLlib to simulate the outcomes of Indian Premium League cricket matches during 2018 season. Ball-by-ball data from previous matches was used to develop two simulation models - Bayesian probability-based and Decision tree-based. The Bayesian model used cumulative probabilities to predict different runs and wicket chances on each ball delivery. If the batsman-bowler data was missing/insufficient their cluster data (clustered using k-means clustering) was used.  The Decision tree model used cluster average data like average strike rate to train and predict the outcomes of 10 matches.
+* Developed a score-wicket prediction model using Apache Spark MLlib to simulate the outcomes of Indian Premium League cricket matches during 2018 season.
+* Ball-by-ball data from previous matches was used to develop two simulation models - Bayesian probability-based and Decision tree-based.
+* The Bayesian model used cumulative probabilities to predict different runs and wicket chances on each ball delivery.
+* If the batsman-bowler data was missing/insufficient their cluster data (clustered using k-means clustering) was used.
+* The Decision tree model used cluster average data like average strike rate to train and predict the outcomes of 10 matches.
 
 ## Design
 
@@ -45,7 +49,7 @@ The top one indicates the Decision tree for runs and the bottom one indicates th
 
 <img src="https://github.com/sumanthvrao/IPL-Spark-Analysis/blob/master/stage3/below.png?raw=true" alt="Decision tree for wickets" width="500" height="400">
 
-### Authors
+### Team
 
 - Siddharth Itagi
 - Sumanth V Rao
